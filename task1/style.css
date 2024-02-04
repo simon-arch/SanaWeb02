@@ -1,0 +1,36 @@
+p {
+    color: green;
+    text-align: center;
+}
+
+p.paragraph1, p.paragraph3 {
+    color:red;
+}
+
+p#paragraph2{
+    color:pink;
+}
+
+a {
+    color: blue;
+}
+
+nav a {
+    color:pink;
+}
+
+nav > ul > li > a {
+    color: green;
+}
+
+nav ul ul {
+    list-style-type: none;
+}
+
+nav ul.square {
+    list-style-type: square;
+}
+
+nav > ul > ul:last-of-type > li > a {
+    text-decoration: none;
+}
