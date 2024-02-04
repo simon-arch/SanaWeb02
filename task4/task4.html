@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=OpenSans">
+</head>
+<body>
+  <div class="login-container">
+    <div class="content">
+        <h2>Sign Up Today</h2>
+        <p id="free">The first 10 days are absolutely FREE!</p>
+        <form>
+          <label for="login">What's your name?<span id="red">*</span></label>
+          <input id="login" class="formdata" name="login" type="text" placeholder="Olivia Bennett" required><br>
+          <label for="email">Where can we email you?<span id="red">*</span></label>
+          <input id="email" class="formdata" name="email" type="email" placeholder="email@gmail.com" required><br>
+          <label for="password">Pick a password:<span id="red">*</span></label>
+          <input id="password" class="formdata" name="password" type="password" placeholder="At least 8 characters" pattern="[\w\d]{8,}" required><br>
+          <input id="show" name="show" type="checkbox" onchange="password.type='text'">
+          <label class="show-checkbox" for="show">Show password</label><br>
+          <div class="button-container">
+            <button type="submit">Sign Up</button>
+            <span>Have an account?<br><a href="https://github.com/simon-arch">Log in here!</a></span>
+          </div>
+        </form>
+    </div>
+    <div class="image-container">
+        <img src="imgs/loginimage.jpg" alt="Login form image">
+    </div>
+</div>
+</body>
+</html>
