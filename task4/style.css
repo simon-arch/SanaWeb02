@@ -51,7 +51,7 @@ input {
     margin-bottom: 12px;
 }
 
-span#red {
+span.red {
     color: crimson;
 }
 

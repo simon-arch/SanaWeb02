@@ -27,6 +27,10 @@ nav ul ul {
     list-style-type: none;
 }
 
+nav li.nodot {
+    list-style-type: none;
+}
+
 nav ul.square {
     list-style-type: square;
 }
